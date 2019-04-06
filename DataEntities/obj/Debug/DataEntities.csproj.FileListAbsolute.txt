@@ -1,0 +1,12 @@
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\DataEntities.dll
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\DataEntities.pdb
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\obj\Debug\DataEntities.csproj.CoreCompileInputs.cache
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\obj\Debug\DataEntities.dll
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\obj\Debug\DataEntities.pdb
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\DataEntities.dll.config
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\EntityFramework.dll
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\EntityFramework.xml
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\obj\Debug\DataEntities.csproj.CopyComplete
+D:\Прога\labs\Epam\DbAdoAndEntityFramework\DataEntities\obj\Debug\DataEntities.csprojAssemblyReference.cache
