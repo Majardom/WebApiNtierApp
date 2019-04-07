@@ -1,5 +1,5 @@
 ﻿using System.Web.Http;
-using WebApi.Attributes;
+using WebApi.Exceptions;
 
 namespace WebApi
 {

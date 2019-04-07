@@ -3,8 +3,11 @@ using System.Net.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace WebApi.Attributes
+namespace WebApi.Exceptions
 {
+    /// <summary>
+    ///  Filter which handles errors related to model state validation.
+    /// </summary>
     public class ValidateModelAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(HttpActionContext actionContext)
