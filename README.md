@@ -10,7 +10,7 @@ This is a C# .Net solution-project, and it contains six sub-projects:
 5.	[Structure](Structure): A class library project. Contains interfaces related to the current app. 
 6.	[WebApi](WebApi): A web API project. Contains realization and configuration of web API controllers which provide main functions of the app.
 ### Web API:
-[Web API](WebAPpi) layer contains three API controllers:
+[Web API](WebApi) layer contains three API controllers:
 1.	[Product categories controller](WebApi/Controllers): Web API controller which contains realization of CRUD functions for product categories and some filtering functions.
 #### Route descriptions:
   * Get all categories: “api/categories” GET;
@@ -39,11 +39,11 @@ This is a C# .Net solution-project, and it contains six sub-projects:
 ### Exception handling:
 Web API exception handling in the current project is managed using Exception Filter Attribute class. 
 [Exception filters](WebApi/Exceptions): 
-ValidateModelAttribute: Filter which handles errors related to model state validation.
-NotFoundExceptionAttribute: Filter which handles errors related to ElementNotFoundException which occurs on BLL layer.
+* ValidateModelAttribute: Filter which handles errors related to model state validation.
+* NotFoundExceptionAttribute: Filter which handles errors related to ElementNotFoundException which occurs on BLL layer.
 
 Exception filters are set globally in [WebApiConfig.cs](WebApi/App_Start/WebApiConfig.cs), as a result each web API controller related to the current project can handle those exceptions. 
 ### Dependency injection: 
-In the current project dependency injection is managed using Ninject. There are two ninject modules in the app [BllModule.cs](ProductsBLL/Infrastructure/BllModule.cs) and [ServicesModule.cs](Ninject/ServiceModule.cs).
+In the current project dependency injection is managed using Ninject. There are two ninject modules in the app [BllModule.cs](ProductsBLL/Infrastructure/BllModule.cs) and [ServicesModule.cs](WebApi/Ninject/ServiceModule.cs).
 
 
